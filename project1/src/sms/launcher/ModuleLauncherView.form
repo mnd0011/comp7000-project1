@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="sms.launcher.ModuleLauncherView">
+  <grid id="27dc6" binding="mainFrame" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="true" same-size-vertically="true" hgap="2" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="554"/>
+    </constraints>
+    <properties/>
+    <border type="bevel-raised" title="Store Management System" title-justification="1" title-position="2"/>
+    <children>
+      <component id="61a9c" class="javax.swing.JButton" binding="buyerModuleAccess">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="images/buyer.png"/>
+          <text value=""/>
+          <toolTipText value="Click to access Buyer Module"/>
+        </properties>
+      </component>
+      <component id="8ac33" class="javax.swing.JButton" binding="salesModuleAccess">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <icon value="images/salesperson.png"/>
+          <text value=""/>
+          <toolTipText value="Click to access Sales Module"/>
+        </properties>
+      </component>
+      <component id="c8cbf" class="javax.swing.JButton" binding="cssModuleAccess">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <icon value="images/css.png"/>
+          <text value=""/>
+          <toolTipText value="Click to access CSS Module"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
